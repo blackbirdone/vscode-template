@@ -4,7 +4,6 @@
     "javascript.validate.enable": false,
     "eslint.validate": ["typescript", "typescriptreact"],
     "eslint.workingDirectories": ["./src"],
-    "editor.codeActionsOnSave": {"source.fixAll.eslint": true},
 
     // Use Non-relative imports so the game can find files in its fake directory structure
     "javascript.preferences.importModuleSpecifier": "non-relative",
@@ -23,4 +22,5 @@
             "snippet": "ns-template"
         },
     ],
+    "bitburner.fileWatcher.enable": true,
 }
